@@ -1,7 +1,15 @@
 *{
  margin:0;
- padding:;
+ padding:0;
 }
 html,body{
- background:red;
+ background:blue;
+}
+.direita{
+    background: dimgray;
+}
+.esquerda{
+    width: 400px;
+    height: 100vh;
+    background: #335384;
 }
