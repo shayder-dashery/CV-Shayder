@@ -1,7 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
  margin:0;
- padding:;
+ padding:0;
 }
-html,body{
- background:red;
+body{
+    background:white;
+    font-family: 'Source Sans 3', sans-serif;
+
+    display: grid;
+    grid-template-areas: "e d" "f f";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+}
+ion-icon{
+    padding-top: 8px;
+    padding-right: 8px;
+}
+ul{
+    list-style: none;
+}
+.conteudo{
+    background: white;
+    text-align: center;
+
+    grid-area: d;
+}
+.esquerda{
+    width: 300px;
+    color: white;
+    font-size: 16px;
+    background: #335384;
+    padding-left: 20px;
+    grid-area: e;
+}
+.footer{
+    grid-area: f;
+}
+.foto img{
+    width: 250px;
+    padding-left: 15px;
+    
+}
+.contato{
+    padding-bottom: 50px;
+}
+.contato li{
+    padding-top: 10px;
+}
+.habilidades{
+    padding-bottom: 50px;
+}
+.habilidades li{
+    padding-top: 20px;
+}
+.habilidades img{
+    padding-right: 10px;
+    padding-top: 20px;
+
+    width: 40px;
+    display: block;
+    float: left;
+}
+.soft ul{
+    padding-left: 18px;
+    padding-bottom: 50px;
+}
+.soft li{
+    padding-top: 15px;
+
+
+    list-style:outside;
+}
+.nome{
+    padding-top: 40px;
+}
+.conteudo h1{
+    color:#335384;
+    font-family: 'Oswald', sans-serif;
+}
+.conteudo h2{
+    color:#335384;
+}
+.conteudo span{
+    color: #7b9bae;
+}
+.conteudo hr{
+    background-color: #335384;
+    height: 3px;
+    width: 40px;
+    margin-left: 300px;
+    
+}
+a{
+    font-size: 14px;
 }
