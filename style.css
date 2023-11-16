@@ -70,7 +70,6 @@ ul{
 .soft li{
     padding-top: 15px;
 
-
     list-style:outside;
 }
 .nome{
@@ -85,17 +84,14 @@ ul{
     color:#335384;
     letter-spacing: 5px;
     padding-bottom: 10px;
-
 }
 .conteudo span{
-    color: #7b9bae;
+    color: #4d7288;
 }
 .conteudo hr{
     background-color: #335384;
     height: 2px;
-    width: 60px;
-    
-    
+    width: 60px;   
 }
 .apresentacao{
     padding-bottom: 30px;
@@ -159,3 +155,43 @@ a{
 [data-hab]:hover:after{
     display: block;
   }
+
+/*  @media screen and (max-width:820px){
+    .body{
+        grid-template-areas: "e e" "d d" "ff";
+        grid-template-columns: 4fr;
+    }
+    .foto img{
+        width: 100px;
+        padding-left: -10px;
+
+    }
+    .conteudo{
+        padding-left: -100px;
+    }
+    .esquerda{
+        width: 150px;
+    }
+    .apresentacao{
+        display: none;
+    }
+    .contato{
+        display: none;
+    }
+}
+@media screen and (max-width:480px){
+    .obj{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .formacao{
+        display: none;
+    }  
+    .container{
+        grid-template-areas: "n" "m" "f";
+
+    }
+}
+*/
